@@ -1,0 +1,63 @@
+:root {
+    --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --accent-text-color: #FFFF;
+    --accent-color: #2196F3;
+    --primery-bg-color: #FFFFFF;
+    
+}
+body {
+    
+    color: var(--primary-text-color);
+    background-color: var(--primery-bg-color);
+}
+
+.logo {
+    
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+    /*Site nav*/
+.link {
+    color: var(--primary-text-color);
+}
+
+.link:hover, .link:focus{
+color:var(--accent-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.hero {
+    background-color: #2F303A;
+    }
+.hero-title { 
+    font-family: Roboto ;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: bold;
+}
+.hero-btn {
+    background-color: var(--accent-bg-color);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.section-title, .feature-list, .title {
+    color: var(--primary-text-color);
+}
+
+
+/*Цвет основного текста #212121*/
+/*Вторичный цвет текста#757575*/
+/*Белый #FFFFFF*/
+/*Акцент #2196F3*/
+/*Вторичный цвет фона #2F303A */
+
