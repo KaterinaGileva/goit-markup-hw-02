@@ -28,6 +28,9 @@ body {
 .link:hover, .link:focus{
 color:var(--accent-color);
 }
+.site-nav, .link.current{
+    color: var(--accent-color);
+}
 
 
 .list {
@@ -44,7 +47,7 @@ color:var(--accent-color);
     font-weight: bold;
 }
 .hero-btn {
-    background-color: var(--accent-bg-color);
+    background-color: var(--accent-color);
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
