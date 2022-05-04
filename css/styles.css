@@ -15,6 +15,7 @@
     --main-bg-cl: #FFFFFF;
     --secondary-bg-cl: #F5F4FA;
     --dark-bg-cl: #2F303A;
+    --btn-bg: #188CE8;
 
 }
 
@@ -129,11 +130,18 @@ line-height: 1.62;
 }
 
 
-.btn:hover,
-.btn:focus {
+.filter .btn:hover,
+.filter .btn:focus {
     color: var(--accent-txt-cl);
     background-color: var(--accent-cl);
 }
+
+.hero .btn:hover,
+.hero .btn:focus {
+    color: var(--accent-txt-cl);
+    background-color: var(--btn-bg);
+}
+
 /*
 ============================
 | Feature section
